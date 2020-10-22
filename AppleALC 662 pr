@@ -1,7 +1,0 @@
-## 自己编译的版本并已提交 Pr
-
-https://github.com/acidanthera/AppleALC/pull/611
-
-> 编译版本说明：Lilu 1.4.8 + AppleALC 1.5.3，layout-id 66
-  + 支持喇叭和耳机自动切换
-  + 前后麦克风使用正常
