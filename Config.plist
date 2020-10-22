@@ -75,6 +75,20 @@
 				<key>TableSignature</key>
 				<data>REJHMg==</data>
 			</dict>
+			<dict>
+				<key>All</key>
+				<false/>
+				<key>Comment</key>
+				<string>Drop MSDM (Windows OEM Data. Useless here)</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<data>AAAAAAAAAAA=</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>TVNETQ==</data>
+			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
