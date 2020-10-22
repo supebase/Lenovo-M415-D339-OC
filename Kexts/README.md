@@ -1,6 +1,15 @@
 ## 都是通用内核扩展 
 > 本人使用自定义 USB 端口，当前目录不包含该文件，请自行配置。
 
+## 关于 AppleALC
+
+自己编译的版本并已提交 Pr
+https://github.com/acidanthera/AppleALC/pull/611
+
+> 编译版本说明：Lilu 1.4.8 + AppleALC 1.5.3，layout-id 66
+  + 支持喇叭和耳机自动切换
+  + 前后麦克风使用正常
+
 ## 关于 AppleAHCIPort
 
 + Due to Apple dropping the AppleIntelPchSeriesAHCI class in AppleAHCIPort.kext
