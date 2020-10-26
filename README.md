@@ -32,8 +32,4 @@
 
 **机型很重要，机型很重要，机型很重要。**
 
-> 配置文件中包含了 4 项 ACPI Delete 列表，都是和 Windows 相关的，如果你是双系统，请删除。
-
-> 关于 **SIP** 问题（推荐操作）：建议将 `csr-active-config` 键值删除，不要写入 **NVRAM** 中。因为系统默认是 Enable 状态，如果想禁用 SIP，请在 Recovery 的终端输入 `csrutil disable` 命令（恢复命令 `csrutil enable`）。注意：配置文件中 csr-active-config 已经移除，如果有问题请自行添加。
-
 > ACPI 部分请看目录里的说明。Kexts 部分请看目录里的说明。Drivers 通常只需要 HfsPlus.efi 和 OpenRuntime.efi
