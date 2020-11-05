@@ -1,17 +1,17 @@
-## 声明：本人使用的主板 BIOS 已经更新到最新版本，并解锁 CFG Lock
+## 声明：我所使用主板 BIOS 已经更新至最新版本，并解锁 `CFG Lock`
 
-* 注意：如果未解锁 CFG Lock 的主板，请将配置文件中 `AppleCpuPmCfgLock` 和 `AppleXcpmCfgLock` 设置为 `True`
+* 需要注意的：如果你的主板未解锁 `CFG Lock` 请将配置文件中 `AppleCpuPmCfgLock` 和 `AppleXcpmCfgLock` 设置为 `True`
 
-### 电脑型号：联想 Lenovo 启天 M415-D339
+### 电脑型号：联想启天 Lenovo M415-D339
 
-> OpenCore 版本：0.6.3
+> **OpenCore 版本：0.6.3**
 
 ### 硬件列表：
 
-* 主板 同上型号，请自行拆机查看。
+* 主板 [ib250mh](https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=ib250mh%E4%B8%BB%E6%9D%BF&fenlei=256&rsv_pq=c93518ed0000074d&rsv_t=9de5tGB5cxBe0Lqtgj9grCvfTMTGMF4cRHg%2F7QkovWpOKDaL3UaMzMvYqsM&rqlang=cn&rsv_enter=1&rsv_dl=ib&rsv_sug3=5&rsv_sug1=5&rsv_sug7=100&sug=ib250mh%25E4%25B8%25BB%25E6%259D%25BF&rsv_n=1)
 * CPU Intel i7 7700
 * 内存 8G 2666 * 2
-* 显卡 蓝宝石 Readon RX 560 (本人已自行更换，自带显卡 GT 710/730 是免驱卡)
+* 显卡 蓝宝石 Readon RX 560（已自行更换，自带显卡 GT 710/730 也是免驱卡）
 * 声卡 Realtek ALC 662（已定制并整合至官方最新版本，layout-id 66）
 * 网卡 Realtek RTL8111
 
@@ -25,10 +25,10 @@
 * SystemSerialNumber
 * SystemUUID
 
-三码可以工具生成：https://github.com/corpnewt/GenSMBIOS
+三码可以通过 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) 生成
 > 注意：验证序列号必须是无效的或未使用的才可以用哦，千万别用能查到信息的序列号！
 
-* ROM 值为网卡 MAC 地址（不要复制 : 符号）
+* ROM 值为网卡 MAC 地址（不要复制字符之间的 : 符号）
 
 **机型很重要，机型很重要，机型很重要。**
 
