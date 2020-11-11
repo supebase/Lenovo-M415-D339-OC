@@ -1,9 +1,9 @@
-## 都是通用内核扩展 
+## 建议自定义 USB 
 > 本人使用自定义 USB 端口，当前目录不包含该文件，请自行配置。
 
 ## 常用内核扩展
 
-请在 https://github.com/acidanthera 或 https://github.com/headkaze/Hackintool 中下载。
+在配置文件中可以看到使用了哪些内核扩展，请在 https://github.com/acidanthera 或 https://github.com/headkaze/Hackintool 中下载最新版本。
 
 ## 关于 AppleALC
 
