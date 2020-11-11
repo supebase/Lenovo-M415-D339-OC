@@ -1,6 +1,8 @@
 ## 声明：我所使用主板 BIOS 已经更新至最新版本，并解锁 `CFG Lock`
 
-* 需要注意的：如果你的主板未解锁 `CFG Lock` 请将配置文件中 `AppleCpuPmCfgLock` 和 `AppleXcpmCfgLock` 设置为 `True`
+* 如果你的主板未解锁 `CFG Lock` 请将配置文件中 `AppleCpuPmCfgLock`、`AppleXcpmCfgLock` 和 `IgnoreInvalidFlexRatio` 设置为 `True`
+* 如果你不是 SATA3 固态硬盘，请将 `ThirdPartyDrives` 设置为 `False`
+* 如果你没有自定义 USB 设备，请将 `XhciPortLimit` 设置为 `True` 并将 USBMap.kext Enabled 部分设置为 `False`
 
 ### 电脑型号：联想启天 Lenovo M415-D339
 
