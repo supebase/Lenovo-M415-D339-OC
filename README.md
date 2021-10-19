@@ -26,6 +26,8 @@
 * 单硬盘 macOS 配置文件（Config.plist）
 * 双硬盘 macOS + Windows 10 配置文件（Config-BootCamp.plist）
 
+> BootCamp 说明：必须已经安装 macOS 系统，另一块硬盘安装 Windows 10 系统。BootCamp 需要在转换助理菜单中自行下载。注意检查（WinPE 中的工具）双系统的启动配置是否正确（应该由 OC 引导）。好处：不用担心时间同步，随时切换系统。
+
 ### 配置文件需要自行添加或修改部分：
 
 * MLB
