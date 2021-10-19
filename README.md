@@ -6,7 +6,7 @@
 
 ### 电脑型号：联想启天 Lenovo M415-D339
 
-> **OpenCore 版本：0.6.3**
+> **OpenCore 版本：0.7.4**
 
 ### 硬件列表：
 
@@ -20,6 +20,11 @@
 + 以下设备非该电脑型号原装，需自行购买：
   + 无线蓝牙 BCM43602 (14E4:43BA) 
   + 硬盘 SanDisk Plus 120G
+
+### 配置文件已更新
+
+* 单硬盘 macOS 配置文件（Config.plist）
+* 双硬盘 macOS + Windows 10 配置文件（Config-BootCamp.plist）
 
 ### 配置文件需要自行添加或修改部分：
 
