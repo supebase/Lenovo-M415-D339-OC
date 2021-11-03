@@ -11,7 +11,7 @@
   + 支持喇叭和耳机自动切换
   + 前后麦克风使用正常
 
-## 关于 AppleAHCIPort（我现在用的系统是10.15.7，不需要）
+## 关于 AppleAHCIPort
 
 + Due to Apple dropping the AppleIntelPchSeriesAHCI class in AppleAHCIPort.kext
 + To resolve, add Catalina's patched AppleAHCIPort.kext with the MinKernel set to 20.0.0
