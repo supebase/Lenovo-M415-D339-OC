@@ -1,5 +1,7 @@
 ## 说明：机型是关键，我的电脑硬件类似 2017 款 iMac（18,2）所以不需要太多修改。主板 BIOS 已经更新至最新版本，并解锁 `CFG Lock`
 
+![截屏2021-11-03 16 14 46](https://user-images.githubusercontent.com/62989049/140027435-7700c170-9ccd-4317-bb0c-61e0d3b175c4.png)
+
 * 如果你的主板未解锁 `CFG Lock` 请将配置文件中 Kernel -> Quirks `AppleCpuPmCfgLock`、`AppleXcpmCfgLock` 和 UEFI -> Quirks `IgnoreInvalidFlexRatio` 设置为 `True`
 * 如果你不是 SATA3 固态硬盘，请将 Kernel -> Quirks `ThirdPartyDrives` 设置为 `False`
 * 如果你没有自定义 USB 设备，请将 Kernel -> Quirks `XhciPortLimit` 设置为 `True` 并将 Kernel 中 USBMap.kext Enabled 部分设置为 `False`
@@ -23,12 +25,17 @@
 
 > 无线蓝牙、固态等其他硬件需要自行购买。
 
-### 配置文件已更新
+![截屏2021-11-03 16 18 32](https://user-images.githubusercontent.com/62989049/140027856-3452d866-fd7a-4ffb-ad8b-2364e1a79a58.png)
 
-* 单硬盘 macOS 配置文件（Config.plist）
-* 双硬盘 macOS + Windows 10 配置文件（Config-BootCamp.plist）
+![截屏2021-11-03 16 19 13](https://user-images.githubusercontent.com/62989049/140027918-7c1da46b-c1f6-4763-a9b5-39deb70064ac.png)
 
-> BootCamp 说明：必须已经安装 macOS 系统，另一块硬盘安装 Windows 10 系统。BootCamp 需要在转换助理菜单中自行下载。注意检查（WinPE 中的工具）双系统的启动配置是否正确（应该由 OC 引导）。好处：不用担心时间同步，随时切换系统。
+![截屏2021-11-03 16 19 53](https://user-images.githubusercontent.com/62989049/140027977-3af77d83-4d69-4300-8ce0-19724da9a368.png)
+
+![截屏2021-11-03 16 20 29](https://user-images.githubusercontent.com/62989049/140028034-8c0bd3b9-baad-472e-af2c-230909758019.png)
+
+![截屏2021-11-03 16 21 13](https://user-images.githubusercontent.com/62989049/140028113-72a79a5b-883d-4ecd-ba64-98c29de73f8a.png)
+
+![截屏2021-11-03 16 21 52](https://user-images.githubusercontent.com/62989049/140028180-5eba6496-8d07-4762-bd9e-c5810babb101.png)
 
 ### 配置文件需要自行添加或修改部分：
 
